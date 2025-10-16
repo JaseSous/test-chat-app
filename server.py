@@ -2,6 +2,8 @@ import asyncio
 import websockets
 import os
 
+print("Running")
+
 clients = set()
 
 async def handler(websocket):
